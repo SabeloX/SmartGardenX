@@ -1,5 +1,5 @@
 =============
-smartgarden-x
+SmartGarden-X
 =============
 
 
