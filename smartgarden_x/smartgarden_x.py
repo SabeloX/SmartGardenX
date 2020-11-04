@@ -19,6 +19,7 @@ class SmartGardenX:
 	def dht11_sensor(self, condition):
 		""" Reads Humidity and Temperature data from DHT11 sensor
 		:param condition: either temperature or humidity
+		:return: condition value
 		"""
 
 		device = self.dht11
