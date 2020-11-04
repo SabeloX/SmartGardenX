@@ -38,11 +38,11 @@ setup(
     include_package_data=True,
     keywords='smartgarden_x',
     name='smartgarden_x',
-    packages=find_packages(include=['smartgarden_x', 'smartgarden_x.*']),
+    packages=find_packages(include=['smartgarden_x', 'smartgarden_x.*', 'board', 'spidev', 'adafruit_blinka']),
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/SabeloX/smartgarden_x',
-    version='0.2.0',
+    version='0.5.0',
     zip_safe=False,
 )
